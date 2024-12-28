@@ -1,0 +1,13 @@
+@mixin flex-center($direction: row, $justify: center, $align: center) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin card {
+  background-color: $card-bg-color;
+  border-radius: 8px;
+  box-shadow: $card-shadow;
+  padding: 16px;
+}

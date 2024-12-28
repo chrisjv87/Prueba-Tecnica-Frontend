@@ -1,0 +1,34 @@
+@import "/src/styles/variables.scss";
+
+.header-container {
+  width: 440px;
+  height: 56px;
+  background-color: $background-color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+
+  .prev-image {
+    width: 10px;
+    height: 18px;
+  }
+
+  .title {
+    width: 128px;
+    height: 27px;
+    font-size: 20px;
+    line-height: 27.32px;
+  }
+
+  .notification-svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .title {
+    color: $text-color;
+    font-size: 18px;
+    font-weight: 800;
+  }
+}

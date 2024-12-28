@@ -1,17 +1,9 @@
-import './styles/App.scss';
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a href="/">
-          Learn React
-        </a>
-      </header>
+      <Header text="Cargo Orders" />
     </div>
   );
 }
