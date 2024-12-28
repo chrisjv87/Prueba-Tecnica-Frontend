@@ -1,0 +1,25 @@
+@import "/src/styles/variables.scss";
+
+.tab-navigation-container {
+  width: 440px;
+  height: 56px;
+  background-color: $background-color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 62px 0 39px;
+  box-sizing: border-box;
+
+
+  .text {
+    color: $text-color;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24.59px;
+    cursor: pointer;
+  }
+
+  .upcoming {
+    color: $text-color-yellow;
+  }
+}

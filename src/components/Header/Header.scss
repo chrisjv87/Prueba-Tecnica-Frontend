@@ -7,28 +7,26 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 16px;
+  padding: 0 46px;
+  box-sizing: border-box;
 
   .prev-image {
     width: 10px;
     height: 18px;
+    cursor: pointer;
   }
 
   .title {
-    width: 128px;
     height: 27px;
     font-size: 20px;
     line-height: 27.32px;
+    color: $text-color;
+    font-weight: 800;
   }
 
   .notification-svg {
     width: 24px;
     height: 24px;
-  }
-
-  .title {
-    color: $text-color;
-    font-size: 18px;
-    font-weight: 800;
+    cursor: pointer;
   }
 }
