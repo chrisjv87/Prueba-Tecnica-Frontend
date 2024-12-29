@@ -1,0 +1,10 @@
+@import "/src/styles/variables.scss";
+
+.cargo-details {
+  width: 440px;
+  height: 1323px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $background-color;
+}
