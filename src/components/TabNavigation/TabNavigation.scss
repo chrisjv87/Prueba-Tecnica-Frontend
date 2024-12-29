@@ -9,7 +9,7 @@
   justify-content: space-between;
   padding: 0 62px 0 39px;
   box-sizing: border-box;
-
+  margin-bottom: 16px;
 
   .text {
     color: $text-color;
@@ -20,6 +20,6 @@
   }
 
   .upcoming {
-    color: $text-color-yellow;
+    color: $color-yellow;
   }
 }
