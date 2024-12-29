@@ -1,0 +1,74 @@
+@import 'src/styles/variables.scss';
+
+.track-order-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  position: relative; 
+  margin-top: 80px;
+  color: $text-color;
+
+  .avatar-img {
+    position: absolute;
+    top: -15px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: 1; 
+  }
+  
+  .track-card {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 450px;
+    border: 1.5px solid #646769;
+    border-radius: 20px;
+    margin-top: 30px;
+    position: relative;
+    background-color: #0f1315;
+    justify-content: space-between;
+
+    .track-time {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      margin-top: 80px;
+
+      .track-hour {
+        color: $text-color;
+        font-size: 20px;
+        font-weight: 800;
+      }
+    }
+
+    .track-steps-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 90%;
+      height: 50%;
+      gap: 30px;
+
+      .track-steps {
+        display: flex;
+        justify-content: space-around;
+      }
+    }
+
+    .track-order {
+      width: 100%;
+      height: 80px;
+      background-color: $color-yellow;
+      border-radius: 0 0 20px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      span {
+        color: #080C0F;
+        font-size: 20px;
+        font-weight: 800;
+      }
+    }
+  }
+}
