@@ -1,16 +1,10 @@
-import Header from "./components/Header/Header";
-import OrderCard from "./components/OrderCard/OrderCard";
-import SearchBox from "./components/SearchBox/SearchBox";
-import TabNavigation from "./components/TabNavigation/TabNavigation";
 import "./App.scss";
+import CargoOrders from "./components/CargoOrders/CargoOrders";
 
 function App() {
   return (
     <div className="App">
-      <Header text="Cargo Orders" />
-      <TabNavigation />
-      <SearchBox />
-      <OrderCard />
+      <CargoOrders />
     </div>
   );
 }

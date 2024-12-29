@@ -1,7 +1,7 @@
 import React from 'react';
 import './OrderCard.scss';
 
-function OrderCard() {
+const OrderCard = () => {
   return (
     <div className='order-container'>
       <div className='order-number'>
@@ -70,7 +70,7 @@ function OrderCard() {
           <div className='order-pickup'>
             <img className='pickup-img' src="/assets/pickup.svg" alt="icon" />
             <div className='event-info'>
-              <span className="event-stauts">PICKUP</span>
+              <span className="event-status">PICKUP</span>
               <span className="event-location">New York</span>
               <span className="event-address">25 Mortada street, Gainalkes...</span>
             </div>
@@ -82,7 +82,7 @@ function OrderCard() {
           <div className='order-dropoff'>
             <img className='location-img' src="/assets/location.svg" alt="icon" />
             <div className='event-info'>
-              <span className="event-stauts">DROPOFF</span>
+              <span className="event-status">DROPOFF</span>
               <span className="event-location">New York</span>
               <span className="event-address">1789 NJ-27, Edison, 08817...</span>
             </div>

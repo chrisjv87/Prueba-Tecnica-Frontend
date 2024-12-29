@@ -1,7 +1,7 @@
 import React from 'react';
 import './SearchBox.scss';
 
-function SearchBox() {
+const SearchBox = () => {
   return (
     <div className='search-box'>
       <button className="search-button">
