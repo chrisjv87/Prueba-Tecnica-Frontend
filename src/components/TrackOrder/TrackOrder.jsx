@@ -13,19 +13,19 @@ const TrackOrder = () => {
         <div className="track-steps-container">
           <div className="track-steps">
             <Image src="/assets/check.svg" alt="check" />
-            <span>Created Order</span>
+            <span className="step-created">Created Order</span>
           </div>
           <div className="track-steps">
             <Image src="/assets/check.svg" alt="check" />
-            <span>Accepted Order</span>
+            <span className="step-accepted">Accepted Order</span>
           </div>
           <div className="track-steps">
             <Image src="/assets/check.svg" alt="check" />
-            <span>Pickup set up by William</span>
+            <span className="step-pickup-by">Pickup set up by William</span>
           </div>
           <div className="track-steps">
-            <Image src="/assets/check.svg" alt="check" />
-            <span>Pickup Completed</span>
+            <Image src="/assets/waiting.svg" alt="check" />
+            <span className="step-pickup-completed">Pickup Completed</span>
           </div>
         </div>
         <div className="track-order">
