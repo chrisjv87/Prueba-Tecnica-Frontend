@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Prueba-Tecnica-Frontend-Bego/static/css/main.d4c07e0d.css",
-    "main.js": "/Prueba-Tecnica-Frontend-Bego/static/js/main.029892dc.js",
+    "main.js": "/Prueba-Tecnica-Frontend-Bego/static/js/main.d8e19687.js",
     "index.html": "/Prueba-Tecnica-Frontend-Bego/index.html",
     "main.d4c07e0d.css.map": "/Prueba-Tecnica-Frontend-Bego/static/css/main.d4c07e0d.css.map",
-    "main.029892dc.js.map": "/Prueba-Tecnica-Frontend-Bego/static/js/main.029892dc.js.map"
+    "main.d8e19687.js.map": "/Prueba-Tecnica-Frontend-Bego/static/js/main.d8e19687.js.map"
   },
   "entrypoints": [
     "static/css/main.d4c07e0d.css",
-    "static/js/main.029892dc.js"
+    "static/js/main.d8e19687.js"
   ]
 }
