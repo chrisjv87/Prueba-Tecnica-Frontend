@@ -1,5 +1,6 @@
 import React from "react";
 import './OrderTrace.scss';
+import Image from '../Image/Image';
 
 const OrderTrace = () => {
   return (
@@ -14,7 +15,7 @@ const OrderTrace = () => {
       </div>
       <div className="orders">
         <div className='order-pickup'>
-          <img className='pickup-img' src="/assets/pickup.svg" alt="icon" />
+          <Image className='pickup-img' src="/assets/pickup.svg" alt="icon" />
           <div className='event-info'>
             <span className="event-status">PICKUP</span>
             <span className="event-location">New York</span>
@@ -26,7 +27,7 @@ const OrderTrace = () => {
           </div>
         </div>
         <div className='order-dropoff'>
-          <img className='onhold-img' src="/assets/onhold.svg" alt="icon" />
+          <Image className='onhold-img' src="/assets/onhold.svg" alt="icon" />
           <div className='event-info'>
             <span className="event-status">DROPOFF</span>
             <span className="event-location">New York</span>

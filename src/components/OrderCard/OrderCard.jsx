@@ -1,5 +1,6 @@
 import React from 'react';
 import './OrderCard.scss';
+import Image from '../Image/Image';
 
 const OrderCard = () => {
   return (
@@ -11,7 +12,7 @@ const OrderCard = () => {
       <div className="order-card">
         <div className='order-status'>
           <div className='order-left'>
-            <img src="/assets/fcl.svg" alt="icon" />
+            <Image src="/assets/fcl.svg" alt="icon" />
             <span className="order-type">FCL</span>
           </div>
           <div className='order-right'>
@@ -21,7 +22,7 @@ const OrderCard = () => {
         </div>
         <div className='order-transit'>
           <div className='order-pickup'>
-            <img className='pickup-img' src="/assets/pickup.svg" alt="icon" />
+            <Image className='pickup-img' src="/assets/pickup.svg" alt="icon" />
             <div className='event-info'>
               <span className="event-status">PICKUP</span>
               <span className="event-location">New York</span>
@@ -33,7 +34,7 @@ const OrderCard = () => {
             </div>
           </div>
           <div className='order-dropoff'>
-            <img className='location-img' src="/assets/location.svg" alt="icon" />
+            <Image className='location-img' src="/assets/location.svg" alt="icon" />
             <div className='event-info'>
               <span className="event-status">DROPOFF</span>
               <span className="event-location">New York</span>
@@ -48,7 +49,7 @@ const OrderCard = () => {
         <div className="order-actions">
           <button className="action-pickup">Its time for pickup</button>
           <button className="action-resume">Resume
-            <img className='action-img' src="/assets/eye.png" alt="icon" />
+            <Image className='action-img' src="/assets/eye.png" alt="icon" />
           </button>
         </div>
       </div>
@@ -59,7 +60,7 @@ const OrderCard = () => {
       <div className="order-card">
         <div className='order-status'>
           <div className='order-left'>
-            <img src="/assets/ftl.svg" alt="icon" />
+            <Image src="/assets/ftl.svg" alt="icon" />
             <span className="order-type">FTL</span>
           </div>
           <div className='order-right'>
@@ -68,7 +69,7 @@ const OrderCard = () => {
         </div>
         <div className='order-transit'>
           <div className='order-pickup'>
-            <img className='pickup-img' src="/assets/pickup.svg" alt="icon" />
+            <Image className='pickup-img' src="/assets/pickup.svg" alt="icon" />
             <div className='event-info'>
               <span className="event-status">PICKUP</span>
               <span className="event-location">New York</span>
@@ -80,7 +81,7 @@ const OrderCard = () => {
             </div>
           </div>
           <div className='order-dropoff'>
-            <img className='location-img' src="/assets/location.svg" alt="icon" />
+            <Image className='location-img' src="/assets/location.svg" alt="icon" />
             <div className='event-info'>
               <span className="event-status">DROPOFF</span>
               <span className="event-location">New York</span>
@@ -90,12 +91,11 @@ const OrderCard = () => {
               <span className="event-date">03/04/23</span>
               <span className="event-time">12:30</span>
             </div>
-            
           </div>
         </div>
         <div className="order-actions-done">
           <button className="action-resume">Resume
-            <img className='action-img' src="/assets/eye.png" alt="icon" />
+            <Image className='action-img' src="/assets/eye.png" alt="icon" />
           </button>
         </div>
       </div>
